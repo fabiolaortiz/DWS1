@@ -85,6 +85,12 @@ abbr {
 	font-style: italic;	 
 }
 
+/*   Strong Syle   */
+
+strong {
+	color: #FD63FF;
+}
+
 /*   Images Syle   */
 
 img {
@@ -99,4 +105,5 @@ img {
 figcaption {
 	color: #84FF14;
 }
+
 
