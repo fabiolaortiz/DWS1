@@ -6,4 +6,6 @@
 
 \f0\fs24 \cf0 https://github.com/fabiolaortiz/DWS1\
 \
+https://github.com/fabiolaortiz/DWS1/tree/gh-pages\
+\
 https://fabiolaortiz.github.io/DWS1/Ortiz-Alvarez-Fabiola-Project2/index.html}
