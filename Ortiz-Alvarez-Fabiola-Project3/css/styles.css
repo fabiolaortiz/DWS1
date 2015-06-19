@@ -131,10 +131,12 @@ figcaption {
 	color: #84FF14;
 }
 
+/*     Icon on Headers       */
 
-
-#History {
+#History, #Procedures, #SDP, #Certification, #Gallery {
 	background-image: url("../images/Palm.png");
 	background-repeat: no-repeat;
 	background-position: left;
+	height: 55px;
+	padding: 8px 0 0 80px;
 }
