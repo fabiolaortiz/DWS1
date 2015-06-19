@@ -1,6 +1,6 @@
 body {
 	background-image: url("../images/sea-scope.gif");
-	background-repeat: repeat-x-y;
+	background-repeat: repeat;
 	background-position: bottom left;
 	font-family: 'Poiret One', cursive;	
 	width: 90%;
@@ -16,7 +16,7 @@ body {
 	padding: .313em;
 	clear: right;
 	background-image: url("../images/dark-canvas.gif");
-	background-repeat: repeat-x-y;
+	background-repeat: repeat;
 	background-position: bottom left;
 }
 
