@@ -140,3 +140,36 @@ figcaption {
 	height: 55px;
 	padding: 8px 0 0 80px;
 }
+
+/*      Table Style        */
+
+.divingTable {
+	display: table-cell;
+	width: 42%; 
+	padding: 5px;
+	font-size: 1em;
+	color: #84FF14;
+	text-align: left;
+	border-spacing: 2px;
+}
+
+/*      Table Heading Style        */
+
+.divingTable th {
+	text-transform: uppercase;
+}
+
+/*      Table Column and Rows Style        */
+
+.divingTable td, th {
+	padding: 2px;
+	border: 2px solid #845DCC;
+	background-color: #333;
+	border-spacing: 2px;
+}
+
+/*      Table when Hovering Style        */
+
+td:hover {
+	background-color: #3D08E6;
+}
