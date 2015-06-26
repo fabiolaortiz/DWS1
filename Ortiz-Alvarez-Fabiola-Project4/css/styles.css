@@ -55,6 +55,10 @@ h2, h3 {
 	color: #CF7DFF;
 }
 
+h3 {
+	margin: 25px;
+}
+
 /*   Navigation Syle   */
 
 
@@ -144,7 +148,7 @@ figcaption {
 
 /*     Icon on Headers       */
 
-#History, #Procedures, #SDP, #Certification, #Gallery {
+#History, #Procedures, #Certification, #Contact, #Gallery {
 	background-image: url("../images/Palm.png");
 	background-repeat: no-repeat;
 	background-position: left;
@@ -199,8 +203,81 @@ tr:hover {
 
 /*      Form Style        */
 
+#contactForm {
+	width: 60%;
+	margin: 0 auto;
+	padding: .8em;
+	background-image: url("../images/presence-ii.png");
+}
 
+/*      Form Titles Style        */
 
+.title {
+	width: 150px;
+	font-size: 1em;
+	float: left;
+}
 
+.title, label {
+	color: #FF0D04;	
+	text-align: left;
+}
 
+/*      Form Input Style        */
 
+input#name {
+	width: 120px;
+	border: 2px solid #845DCC;
+	padding: 5px;
+}
+
+input#email {
+	width: 130px;
+	border: 2px solid #845DCC;
+	padding: 5px;
+}
+
+textarea {
+	border: 2px solid #845DCC;
+}
+
+/*      Form Input Style when Focus and Hovering      */
+
+input:hover {
+	background-color: #CDFFE4;
+}
+
+textarea:hover {
+	background-color: #CDFFE4;
+}
+
+input:focus {
+	background-color: #FFDEFA;
+}
+
+textarea:focus {
+	background-color: #FFDEFA;
+}
+
+/*      Form Button Style        */
+
+#submit {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#submit input {
+	width: 150px;
+	padding: 10px 15px;
+    color: #84FF14;
+	background: linear-gradient(#664DBF, #44337F);
+    border: 2px solid #845DCC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*      Form Button Style when hovering       */
+
+#submit input:hover {
+	background: linear-gradient(#44337F, #664DBF);
+}
