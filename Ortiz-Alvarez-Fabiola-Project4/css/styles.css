@@ -9,9 +9,19 @@ body {
 
 /*   Two Columns Layout  */
 
-#content, #images {
+#content {
 	float: left;
-	width: 47%;
+	width: 60%;
+	margin: 1%;
+	padding: .313em;
+	background-image: url("../images/dark-canvas.gif");
+	background-repeat: repeat;
+	background-position: bottom left;
+}
+
+#images {
+	float: left;
+	width: 30%;
 	margin: 1%;
 	padding: .313em;
 	clear: right;
@@ -25,6 +35,7 @@ body {
 p {
 	color: #84FF14;
 	line-height: 1.250em; 
+	padding-left: 10px;
 }
 
 /*   Headings Style   */
@@ -121,7 +132,7 @@ abbr {
 
 #images img {
 	width: 33.1%;
-	height: 28.4%;
+	height: 30%;
     border: 3px solid #845DCC;
     border-radius: 15px;
     box-shadow: 2.5px 2.5px 2.5px #666;
@@ -144,32 +155,52 @@ figcaption {
 /*      Table Style        */
 
 .divingTable {
-	display: table-cell;
-	width: 42%; 
+	width: 95%;
+	margin: 0 auto; 
 	padding: 5px;
 	font-size: 1em;
-	color: #84FF14;
-	text-align: left;
-	border-spacing: 2px;
+	border-collapse: collapse;
 }
 
 /*      Table Heading Style        */
 
 .divingTable th {
+	padding: 2px;
+	text-align: left;
+	color:	#84FF14;
 	text-transform: uppercase;
+	background-color: #684099;
+	border: 2px solid #845DCC;
 }
 
 /*      Table Column and Rows Style        */
 
-.divingTable td, th {
-	padding: 2px;
+.divingTable td {
 	border: 2px solid #845DCC;
-	background-color: #333;
-	border-spacing: 2px;
+}
+
+.divingTable .even {
+	background-color: #777F7F;
+}
+
+.divingTable tr {
+	background-color: #BFC8CF;
 }
 
 /*      Table when Hovering Style        */
 
-td:hover {
-	background-color: #3D08E6;
+tr:hover {
+	background-color: #81AFCF;
+} 
+
+.even:hover {
+	background-color: #81AFCF;
 }
+
+/*      Form Style        */
+
+
+
+
+
+
