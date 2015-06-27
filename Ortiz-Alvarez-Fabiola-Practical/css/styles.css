@@ -118,28 +118,28 @@ section#promo {
 #coffee {
 	background: url("../images/ico_coffee.png") no-repeat top center;
 	background-size: 80px;
-	padding: 130px 0 0 0;
+	padding: 108px 0 0 0;
 	text-align: center;
 }
 
 #music {
 	background: url("../images/ico_music.png") no-repeat top center;
 	background-size: 80px;
-	padding: 130px 0 0 0;
+	padding: 108px 0 0 0;
 	text-align: center;
 }
 
 #food {
-	background: url("../images/ico_food.png") no-repeat center center;
+	background: url("../images/ico_food.png") no-repeat top center;
 	background-size: 80px;
-	padding: 130px 0 0 0;
+	padding: 108px 0 0 0;
 	text-align: center;
 }
 
 #service {
 	background: url("../images/ico_service.png") no-repeat center center;
 	background-size: 80px;
-	padding: 130px 0 0 0;
+	padding: 108px 0 0 0;
 	text-align: center;
 }
 
