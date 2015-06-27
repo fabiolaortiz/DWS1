@@ -91,7 +91,6 @@ ul a:hover{
 
 section#promo {
 	clear: left;
-	float: center;
 	width: 1130px;
 	height: auto;
 	margin: 0 auto;
@@ -147,7 +146,6 @@ section#promo {
 
 #featured {
 	clear: left;
-	float: center;
 	width: 1130px;
 	height: auto;
 	margin: 0 auto;
@@ -208,7 +206,6 @@ section#promo {
 
 footer {
 	clear: left;
-	float: center;
 	width: 100%;
 	height: auto;
 	font-size: 12px;
