@@ -1,0 +1,226 @@
+/************************ Main Styles ************************/
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	font: 16px / 1.5 "Lato", sans-serif;
+	color: #666;
+}
+
+/*       Header Image     */
+
+header {
+	height: 754px;
+	background: url("../images/homebackground.jpg") no-repeat top center fixed;
+	background-size: 100%;
+}
+
+/*       Header Logo     */
+
+h1 {
+	width: 219px;
+	height: 62px;
+	margin: 0 auto 0 auto;
+	padding-top: 30px;
+	background: url("../images/logo.png") no-repeat bottom center;
+	text-indent: -9999px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*       Navigation Style     */
+
+nav {
+	list-style: none;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-width: 1px;
+	border-color: #ddd;
+	margin: auto;
+	padding: 15px;
+	text-align: center;
+}
+
+nav ul {
+	width: 550px;
+	margin: 0 auto;
+	padding: 0;
+}
+		
+nav li {
+	display: inline;
+	padding: 0 15px 0 15px;
+}
+
+a{
+	color: #ddd;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+li #current-page {
+	color: #d93600;
+}
+
+ul a:hover{
+	color: #d93600;
+}
+
+/*       Slogan Style     */
+
+#slogan {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slogan h2 {
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+}
+
+#slogan p {
+	font-size: 34px;
+	color: #fff;
+	text-align: center;
+}
+
+/*       First Section and Column Style     */
+
+section#promo {
+	clear: left;
+	float: center;
+	width: 1130px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+.promo-col {
+	float: left;
+	width: 255px;
+	margin: 0 30px 0 0;
+}
+
+.promo-col:nth-child(4) {
+	margin: 0;
+}
+
+.promo-col p {
+	text-align: center;
+}
+
+/*       Column Icons     */
+
+#coffee {
+	background: url("../images/ico_coffee.png") no-repeat top center;
+	background-size: 80px;
+	padding: 130px 0 0 0;
+	text-align: center;
+}
+
+#music {
+	background: url("../images/ico_music.png") no-repeat top center;
+	background-size: 80px;
+	padding: 130px 0 0 0;
+	text-align: center;
+}
+
+#food {
+	background: url("../images/ico_food.png") no-repeat center center;
+	background-size: 80px;
+	padding: 130px 0 0 0;
+	text-align: center;
+}
+
+#service {
+	background: url("../images/ico_service.png") no-repeat center center;
+	background-size: 80px;
+	padding: 130px 0 0 0;
+	text-align: center;
+}
+
+/*       Second Section and Column Style     */
+
+#featured {
+	clear: left;
+	float: center;
+	width: 1130px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+.featured-col img {
+	margin: 0 25px 0 25px; 
+}
+
+#featured h2 {
+	font-size: 34px;
+	font-weight: normal;
+	color: #868686;
+	text-align: center;
+}
+
+.featured-col {
+	float: left;
+	width: 350px;
+	margin: 0 40px 0 0;
+}
+
+.featured-col:nth-child(4) {
+	margin: 0;
+}
+
+.featured-col h3 {
+	color: #d93600;
+	text-align: center;
+}
+
+.featured-col p {
+	text-align: center;
+}
+
+/*       Read More Link Style     */
+
+.featured-col a:link, a:visited {
+    margin: 20px auto 30px auto;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d93600;
+    width: 200px;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.featured-col a:hover, a:active {
+    background-color: #999;
+}
+
+/*       Footer Style     */
+
+footer {
+	clear: left;
+	float: center;
+	width: 100%;
+	height: auto;
+	font-size: 12px;
+	color: #868686;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #111;
+}
+
+/*     Footer Copyright Symbol     */
+
+footer p:before {
+	content: "\00A9 \00a0";
+}	
